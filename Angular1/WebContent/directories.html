@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+<body>
+<div ng-app="">
+ 	<p>Name : <input type="text" ng-model="name"></p>
+ 	<h1>Hello {{name}}</h1>
+ 	
+ 	<P ng-hide="true">not visible</P>
+ 	 	<P ng-hide="false">Renuka</P>
+ 	 	
+ 	 	<P ng-hide="admin"><a href="login">login</a>.</P>
+ 	 	<P ng-hide="user"><a href="logout">logout</a>.</P>
+            
+              
+</div>
+
+</body>
+</html>
